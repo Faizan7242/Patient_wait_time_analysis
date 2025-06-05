@@ -1,6 +1,7 @@
 # Bihar Health Application – AWT Analysis 📊
 
-![Dashboard Preview](images/dashboard-preview.png)
+![timestamp_pg1](https://github.com/user-attachments/assets/7dd751a9-51c4-435d-a97c-12179bc40314)
+
 
 ## Project Overview
 
@@ -17,7 +18,6 @@ Bihar, one of India's most populous states, relies heavily on public healthcare.
 ## Data Source
 
 - **Bhavya Central Application Database:** An internal healthcare system aggregating timestamped OPD data from government hospitals statewide.
-- _[Sample data provided in `/data/sample_opd_data.csv`]_
 
 ---
 
@@ -36,7 +36,13 @@ Bihar, one of India's most populous states, relies heavily on public healthcare.
 
 ## Dashboard Preview
 
-![Dashboard Preview](images/dashboard-preview.png)
+![timestamp_pg2](https://github.com/user-attachments/assets/afd603e9-81f4-40f0-9915-f62caba3d028)
+
+![timestamp_pg3](https://github.com/user-attachments/assets/aa3708a7-be0b-45a3-b6a1-5fcf6f3d5ede)
+
+![timestamp_pg4](https://github.com/user-attachments/assets/6deeb683-6648-4a32-a6ab-e3473eb914a9)
+
+![timestamp_pg5](https://github.com/user-attachments/assets/d8d3c611-9b07-46ee-89bc-7381b94ceafa)
 
 ---
 
@@ -48,30 +54,17 @@ Bihar, one of India's most populous states, relies heavily on public healthcare.
 
 ---
 
-## How to Use
-
-1. **Clone the repository**
-2. **Open `/dashboard/Bihar_Health_AWT.pbix` in Power BI Desktop**
-3. **(Optional) Replace sample data with your actual OPD data**
-4. **Interact with the dashboard to explore insights**
-
----
-
 ## Data Model
 
-![Schema Diagram](images/schema-diagram.png)
+A simple many-to-one relationship with the actual dataset and the table which I created for the categorization of Average waiting time.
+
+<img width="503" alt="image" src="https://github.com/user-attachments/assets/e4fab4b1-acc8-489f-a9a5-7e116b31115a" />
 
 ---
 
 ## Conclusion
 
 This dashboard empowers the Bihar Health Department to make data-driven decisions, reduce patient wait times, and improve the overall quality of care.
-
----
-
-## License
-
-[MIT](LICENSE)
 
 ---
 
